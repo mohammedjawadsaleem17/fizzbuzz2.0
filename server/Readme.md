@@ -14,4 +14,6 @@ b)and in the body section provide the test case
   "values": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, "hello"]
 }
 Although the backend part is deployed to vercel which can be accessed on : https://server-three-kappa.vercel.app/
+to test : https://server-three-kappa.vercel.app/test
+
 The Post Request is made using the URL : https://server-three-kappa.vercel.app/fizzbuzz
