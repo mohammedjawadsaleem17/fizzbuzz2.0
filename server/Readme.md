@@ -3,7 +3,7 @@ please run the following commands
 2)npm install cors
 3)npm install express
 
-please configure package.json with "dev":"nodemon index.js" in script object
+ 
 
 npm run dev - to start a server
 
