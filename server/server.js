@@ -19,8 +19,12 @@ app.post('/fizzbuzz', (req, res) => {
   console.log(`These are the values that i gotcha`,values);
 //Values return type is an Array!
 console.log(typeof values[0])
-  const result = values.map(value => {
-    console.log(`individual value`,value);
+
+  const filteredArray = values.filter((str)=>str!=="");
+  console.log(`Here is the filtered Array: `,filteredArray)
+
+  const result = filteredArray.map(value => {
+    // console.log(`individual value`,value);
 
     //Here the division happens since javascript allows/treats string numbers "1" as a Number and performs the divison
     const divisible3 = value % 3 === 0;
