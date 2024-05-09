@@ -17,3 +17,18 @@ Although the backend part is deployed to vercel which can be accessed on : https
 to test : https://server-three-kappa.vercel.app/test
 
 The Post Request is made using the URL : https://server-three-kappa.vercel.app/fizzbuzz
+
+
+/*
+Configure Vercel deployment
+
+create a vercel.json configuration file 
+{
+  "version": 2,
+  "builds": [{ "src": "index.js", "use": "@vercel/node" }],
+  "routes": [{ "src": "/(.*)", "dest": "index.js" }]
+}
+
+Deploy npm install -g vercel
+vercel
+*/
